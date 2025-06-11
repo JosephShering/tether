@@ -1,21 +1,14 @@
 # Tether
 
-**TODO: Add description**
+At SmartRent, we utilize proxy servers to server data from the main API.
+Tether provides some helpful macros to create a proxy HTTP Request from the main API, to the client making the call on the proxy.
 
 ## Installation
-
-If [available in Hex](https://hex.pm/docs/publish), the package can be installed
-by adding `tether` to your list of dependencies in `mix.exs`:
 
 ```elixir
 def deps do
   [
-    {:tether, "~> 0.1.0"}
+    {:tether, "~> 0.1.1"}
   ]
 end
 ```
-
-Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_doc)
-and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
-be found at <https://hexdocs.pm/tether>.
-
